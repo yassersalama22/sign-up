@@ -12,6 +12,7 @@
 body {
     display: grid;
     grid-template-columns: 30% 70%;
+    font-family: "Helvetica", "Arial", sans-serif;
 }
 
 .sidebar {
@@ -46,4 +47,8 @@ body {
     justify-content: center;
     align-items: center;
     width:100%;
+}
+
+.main {
+    padding-left: 50px;
 }
