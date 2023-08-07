@@ -23,14 +23,26 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .head {
     background-color: #F9FAFB;
     color: #000000;
-    font-size: x-large;
-    font-weight: 400;
+    font-size: 2em;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.head>p {
+    margin: 50px;
+    max-width: 55ch;
 }
 
 .body {
@@ -40,20 +52,6 @@ body {
 
 .foot {
     background-color: burlywood;
-}
-
-/* .sidebar {
-    background-image: url(halie-west.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-}
-
-.upper-sidebar {
-    height: 35vh;
-    display: flex;
-    align-items: end;
 }
 
 .logo-text {
@@ -72,5 +70,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px 75px;
+    width: 100%;
+    flex-grow: 1;
 } 
+
+
+/* .sidebar {
+    background-image: url(halie-west.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.upper-sidebar {
+    height: 35vh;
+    display: flex;
+    align-items: end;
+}
+
+
+
+
+
+
+
+
 */
